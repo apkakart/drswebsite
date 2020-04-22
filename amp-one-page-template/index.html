@@ -1066,7 +1066,6 @@
     user-select: none;
     pointer-events: none;
     -webkit-user-drag: none;
-    user-drag: none;
   }
 
   html,
@@ -1359,7 +1358,7 @@
     display: flex;
   }
 
-  @media (max-width: 991px) {
+  @media (max-width: 1366px) {
     .cid-qPydcGGZlE ul.navbar-nav {
       flex-direction: column;
     }
@@ -1781,7 +1780,7 @@
 
     .cid-qPydcGGZlE .ampstart-btn,
     .cid-qPydcGGZlE amp-sidebar {
-      display: none;
+      display: -webkit-flex;
     }
 
     .cid-qPydcGGZlE .dropdown-menu .dropdown-toggle:after {
@@ -2546,25 +2545,7 @@
   
 </head>
 <body>
-  <!-- Google Tag Manager -->
-  <amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-K6TKNPZ&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
-  <!-- Google Analytics -->
-  <amp-analytics type="googleanalytics" id="analytics1">
-    <script type="application/json">
-      {
-        "vars": {
-          "account": "UA-163339559-1"
-        },
-        "triggers": {
-          "trackPageview": {
-            "on": "visible",
-            "request": "pageview"
-          }
-        }
-      }
-    </script>
-  </amp-analytics>
-  <!-- /Google Analytics -->
+  
   
   <amp-sidebar id="sidebar" class="cid-qPydcGGZlE" layout="nodisplay" side="right">
   <div class="builder-sidebar" id="builder-sidebar">
@@ -2654,6 +2635,27 @@
   </div>
 </amp-sidebar>
 
+
+<!-- Google Tag Manager -->
+<amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-K6TKNPZ&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
+<!-- Google Analytics -->
+<amp-analytics type="googleanalytics" id="analytics1">
+  <script type="application/json">
+    {
+      "vars": {
+        "account": "UA-163339559-1"
+      },
+      "triggers": {
+        "trackPageview": {
+          "on": "visible",
+          "request": "pageview"
+        }
+      }
+    }
+  </script>
+</amp-analytics>
+<!-- /Google Analytics -->
+
 <section class="menu horizontal-menu cid-qPydcGGZlE" id="menu1-a">
   <nav class="navbar navbar-dropdown  navbar-fixed-top navbar-expand-lg">
     <div class="container">
@@ -2677,6 +2679,8 @@
     <span></span>
   </button>
 </section>
+
+
 
 
 
