@@ -1,5 +1,9 @@
 <?php
-$name = array('a' => 1, 'b' => 2, 'c' => 3, 'd' => 4, 'e' => 5);
+header('Access-Control-Allow-Origin: http://localhost:7700');
+header('Access-Control-Allow-Credentials: true');
 
-echo json_encode($name);
+if(!empty($_POST)){
+$myJSON = json_encode($_POST);
+      echo $myJSON;
+   }
 ?>
