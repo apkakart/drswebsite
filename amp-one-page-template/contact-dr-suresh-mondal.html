@@ -2776,6 +2776,69 @@
   
   
     /* end contact form*/
+    
+    /*footer start*/
+    footer {
+    display: block
+    }
+    .line-height-2 {
+    line-height: 1.125rem
+    }
+    .py3 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem
+    }
+    .absolute {
+    position: absolute
+    }
+    .right-0 {
+    right: 0
+    }
+    .bottom-0 {
+    bottom: 0
+    }
+    .left-0 {
+    left: 0
+    }
+    #content:target {
+    margin-top: calc(0px - 3.5rem);
+    padding-top: 3.5rem
+    }
+    .ampstart-footer {
+    font-size: .75rem;
+    line-height: 1rem;
+    letter-spacing: .06rem
+    }
+    .ampstart-footer {
+    background-color: #fff;
+    color: #000;
+    padding-top: 5rem;
+    padding-bottom: 5rem
+    }
+    .ampstart-readmore {
+    background: linear-gradient(0deg, rgba(0, 0, 0, .65) 0, transparent);
+    color: #fff;
+    margin-top: 5rem;
+    padding-bottom: 3.5rem
+    }
+    .ampstart-readmore:after {
+    display: block;
+    content: "⌄";
+    font-size: 2rem
+    }
+    .ampstart-readmore-text {
+    background: #000
+    }
+    .footer-center{
+      text-align: center;
+    }
+    .footer-block{
+     display: block;
+    }
+    /*footer end*/
+    .my-padding{
+      padding-top: 100px;
+    }
   </style>
  
   <script async src="https://cdn.ampproject.org/v0.js"></script>
@@ -2923,9 +2986,12 @@
   <section class="header1 cid-qExjwpQLl9" id="header1-0">
     <div class="container-full">
       <div class="box-vid1">
-      <amp-anim layout="responsive" width="1080" height="2048" src="assets/gif/a.gif" media="(max-width: 415px)">
+      <amp-anim noloading="false" layout="responsive" width="404" height="780" src="assets/gif/a.gif" media="(max-width: 415px)">
        
-        </amp-img>
+      </amp-anim>
+       <amp-anim layout="fixed-height"  height="720" src="assets/gif/b.gif" media="(min-width: 416px)">
+      
+        
       </amp-anim>
      </div>
       
@@ -2943,6 +3009,9 @@
     
     
     </div>
+    <footer class="absolute left-0 right-0 bottom-0">
+      <a class="ampstart-readmore py3 caps line-height-2 text-decoration-none footer-center footer-block h5" href="#form3-37"><span class="ampstart-readmore-text px1">Read more</span></a>
+    </footer>
     
   </section>
   
@@ -2952,34 +3021,13 @@
          Contact Us
        </h2>
        <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">
-         Find Us Or Contact Us
+          If you have a question or query about Sexologist Dr. Suresh Mondal or just want to send us a message please use this form. Then click on the Contact Us button
        </h3>
        <div class="mbr-row mbr-justify-content-center main-row">
-         <div class="mbr-col-lg-6 mbr-col-md-12 mbr-col-sm-12">
-           <div class="google-map">
-             <amp-iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23151.83378289668!2d77.21997368043796!3d28.52597719519988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3f94fd66be5%3A0x7e7924bac6a8f508!2sDr%20Suresh%20Mondal!5e0!3m2!1sen!2sin!4v1589194609572!5m2!1sen!2sin" height="400" layout="fixed-height" sandbox="allow-scripts allow-same-origin allow-popups" frameborder="0">
-               <h4 placeholder="">Google Map Initialization...</h4>
-             </amp-iframe>
-           </div>
-         </div>
+        
          <div class="mbr-col-lg-6 mbr-col-md-12 form-content" data-form-type="formoid">
            <div class="mbr-row">
-             <div class="mbr-col-lg-12">
-               <div class="mbr-row">
-                 <div class="list-item mbr-col-lg-6 mbr-col-md-6">
-                   <span class="mbr-iconfont fa fa-phone-square"></span>
-                   <h5 class="mbr-fonts-style display-7">+91 828 7452 328</h5>
-                 </div>
-                 <div class="list-item mbr-col-lg-6 mbr-col-md-6">
-                   <span class="mbr-iconfont fa fa-envelope"></span>
-                   <h5 class="mbr-fonts-style display-7">info@drsureshmondal.in</h5>
-                 </div>
-                 <div class="list-item mbr-col-lg-6 mbr-col-md-6">
-                   <span class="mbr-iconfont fa fa-map-marker"></span>
-                   <h5 class="mbr-fonts-style display-7">104, South Extension II, New Delhi 110049, INDIA</h5>
-                 </div>
-               </div>
-             </div>
+             
              <div class="mbr-col-lg-12 mbr-col-md-12" data-form-type="formoid">
                <form class="mbr-form" method="post" target="_top" action-xhr="https://drsureshmondal.in/you.php" data-form-title="My Form">
                  <div class="custom-loader"></div>
@@ -3012,6 +3060,34 @@
                  </div>
                </form>
              </div>
+           
+             <div class="mbr-col-lg-12 my-padding">
+               <div class="mbr-row ">
+                 <div class="list-item mbr-col-lg-6 mbr-col-md-6">
+                   <span class="mbr-iconfont fa fa-phone-square"></span>
+                   <h5 class="mbr-fonts-style display-7">+91 828 7452 328</h5>
+                 </div>
+                 <div class="list-item mbr-col-lg-6 mbr-col-md-6">
+                   <span class="mbr-iconfont fa fa-envelope"></span>
+                   <h5 class="mbr-fonts-style display-7">info@drsureshmondal.in</h5>
+                 </div>
+                 <div class="list-item mbr-col-lg-6 mbr-col-md-6">
+                   <span class="mbr-iconfont fa fa-map-marker"></span>
+                   <h5 class="mbr-fonts-style display-7">104, South Extension II, New Delhi 110049, INDIA</h5>
+                 </div>
+               </div>
+             </div>
+                <div class="mbr-col-lg-6 mbr-col-md-12 mbr-col-sm-12 my-padding">
+                  <div class="google-map">
+                    <amp-iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23151.83378289668!2d77.21997368043796!3d28.52597719519988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3f94fd66be5%3A0x7e7924bac6a8f508!2sDr%20Suresh%20Mondal!5e0!3m2!1sen!2sin!4v1589194609572!5m2!1sen!2sin" height="400" layout="fixed-height" sandbox="allow-scripts allow-same-origin allow-popups" frameborder="0">
+                      <h4 placeholder="">Google Map Initialization...</h4>
+                    </amp-iframe>
+                  </div>
+                </div>
+             
+             
+             
+             
            </div>
          </div>
        </div>
